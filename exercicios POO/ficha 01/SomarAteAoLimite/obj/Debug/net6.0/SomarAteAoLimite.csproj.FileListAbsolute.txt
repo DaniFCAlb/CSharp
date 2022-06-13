@@ -1,0 +1,15 @@
+C:\Users\danie\OneDrive\Ambiente de Trabalho\POO\exercicios dani\ficha 01\SomarAteAoLimite\bin\Debug\net6.0\SomarAteAoLimite.exe
+C:\Users\danie\OneDrive\Ambiente de Trabalho\POO\exercicios dani\ficha 01\SomarAteAoLimite\bin\Debug\net6.0\SomarAteAoLimite.deps.json
+C:\Users\danie\OneDrive\Ambiente de Trabalho\POO\exercicios dani\ficha 01\SomarAteAoLimite\bin\Debug\net6.0\SomarAteAoLimite.runtimeconfig.json
+C:\Users\danie\OneDrive\Ambiente de Trabalho\POO\exercicios dani\ficha 01\SomarAteAoLimite\bin\Debug\net6.0\SomarAteAoLimite.dll
+C:\Users\danie\OneDrive\Ambiente de Trabalho\POO\exercicios dani\ficha 01\SomarAteAoLimite\bin\Debug\net6.0\SomarAteAoLimite.pdb
+C:\Users\danie\OneDrive\Ambiente de Trabalho\POO\exercicios dani\ficha 01\SomarAteAoLimite\obj\Debug\net6.0\SomarAteAoLimite.csproj.AssemblyReference.cache
+C:\Users\danie\OneDrive\Ambiente de Trabalho\POO\exercicios dani\ficha 01\SomarAteAoLimite\obj\Debug\net6.0\SomarAteAoLimite.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\OneDrive\Ambiente de Trabalho\POO\exercicios dani\ficha 01\SomarAteAoLimite\obj\Debug\net6.0\SomarAteAoLimite.AssemblyInfoInputs.cache
+C:\Users\danie\OneDrive\Ambiente de Trabalho\POO\exercicios dani\ficha 01\SomarAteAoLimite\obj\Debug\net6.0\SomarAteAoLimite.AssemblyInfo.cs
+C:\Users\danie\OneDrive\Ambiente de Trabalho\POO\exercicios dani\ficha 01\SomarAteAoLimite\obj\Debug\net6.0\SomarAteAoLimite.csproj.CoreCompileInputs.cache
+C:\Users\danie\OneDrive\Ambiente de Trabalho\POO\exercicios dani\ficha 01\SomarAteAoLimite\obj\Debug\net6.0\SomarAteAoLimite.dll
+C:\Users\danie\OneDrive\Ambiente de Trabalho\POO\exercicios dani\ficha 01\SomarAteAoLimite\obj\Debug\net6.0\refint\SomarAteAoLimite.dll
+C:\Users\danie\OneDrive\Ambiente de Trabalho\POO\exercicios dani\ficha 01\SomarAteAoLimite\obj\Debug\net6.0\SomarAteAoLimite.pdb
+C:\Users\danie\OneDrive\Ambiente de Trabalho\POO\exercicios dani\ficha 01\SomarAteAoLimite\obj\Debug\net6.0\SomarAteAoLimite.genruntimeconfig.cache
+C:\Users\danie\OneDrive\Ambiente de Trabalho\POO\exercicios dani\ficha 01\SomarAteAoLimite\obj\Debug\net6.0\ref\SomarAteAoLimite.dll
