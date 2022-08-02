@@ -4,21 +4,24 @@ public static class Bob
 {
     public static string Response(string statement)
     {
-      switch (statement)
-      {
-        case Question():
-            return "Sure";
-            break;
-        
-        default:
-            return "Whatever";
-      }
-    
-      
+
+
+    if (Question(statement))
+        return "Sure.";
+    if (Yell(statement))
+        return "Whoa, chill out!";
+    if (YellQuestion(statement))
+        return "Calm down, I know what I'm doing.";
+    if (SayNothing(statement))
+        return "Fine. Be that way!";
+    else
+        return "Whatever.";
+         
     }
+    
     public static bool Question(string statement)
     {
-        return statement.Contains("?");
+        return statement.Trim().Contains("?");
     }
 
     static bool Yell(string statement)
@@ -31,12 +34,12 @@ public static class Bob
     {
         return statement == statement.ToUpper() 
                 && statement != statement.ToLower() 
-                && statement.Contains("?"); 
+                && statement.EndsWith("?"); 
     }
 
     static bool SayNothing(string statement)
     {
-        return string.IsNullOrEmpty("");
+        return string.IsNullOrWhiteSpace(statement);
     }
     
     
