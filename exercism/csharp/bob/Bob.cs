@@ -6,16 +6,16 @@ public static class Bob
     {
 
 
-    if (Question(statement))
-        return "Sure.";
+    if (YellQuestion(statement))
+        return "Calm down, I know what I'm doing!";
     if (Yell(statement))
         return "Whoa, chill out!";
-    if (YellQuestion(statement))
-        return "Calm down, I know what I'm doing.";
+    if (Question(statement))
+        return "Sure.";
     if (SayNothing(statement))
         return "Fine. Be that way!";
-    else
-        return "Whatever.";
+
+    return "Whatever.";
          
     }
     
@@ -34,7 +34,7 @@ public static class Bob
     {
         return statement == statement.ToUpper() 
                 && statement != statement.ToLower() 
-                && statement.EndsWith("?"); 
+                && statement.Contains("?"); 
     }
 
     static bool SayNothing(string statement)
