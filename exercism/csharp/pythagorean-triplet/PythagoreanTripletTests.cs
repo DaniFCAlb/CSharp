@@ -12,7 +12,7 @@ public class PythagoreanTripletTests
         }, PythagoreanTriplet.TripletsWithSum(12));
     }
 
-    [Fact(Skip = "Remove this Skip property to run this test")]
+    [Fact]
     public void Triplets_whose_sum_is_108()
     {
         Assert.Equal(new[]

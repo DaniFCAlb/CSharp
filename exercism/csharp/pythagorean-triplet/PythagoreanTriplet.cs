@@ -9,13 +9,13 @@ public static class PythagoreanTriplet
 
       for (int a = 1; a < sum/3 ; a++)
       {
-        for (int b = 0; b < sum/2; b++)
+        for (int b = a + 1; b < sum/2; b++)
         {             
           int c = sum -a -b;
                 
             if (a*a + b*b == c*c)
             {
-              yield return (a, b, c); // (colhe, produto) retorna os valores do tuple, 1 de cada vez
+              yield return (a, b, c); // (colher / produto) retorna os valores do tuple, 1 de cada vez
             }
             
             
