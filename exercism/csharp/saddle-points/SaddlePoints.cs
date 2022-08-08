@@ -10,15 +10,16 @@ public static class SaddlePoints {
        // descobrir o max da linha atual 
        // verificar se este max também é o min da coluna 
        // verificar se há 0 ou + pontos sela 
+        int row_max = matrix.GetLength(0); // nº elementos linha
+        int col_min = matrix.GetLength(1); // nº elemtos coluna
         
-        for (int i = 0; i < matrix.Length; i++) { 
-            
-            for (int j = 0; j < matrix.Length; j++) {
+        for (int i = 1; i < row_max; i++) { 
+        
+            for (int j = 1; j < col_min; j++) {
                 
-                if (i == j) {
-                   yield return (i, j);   
-                   
-                }
+               if (i == row_max && j == col_min){
+                    yield return(i,j);
+               } 
             }
         }
     }
