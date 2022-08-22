@@ -3,17 +3,17 @@ using System.Collections.Generic;
 public static class RomanNumeralExtension {
     public static string ToRoman(this int value) {
         string romanNumbersResult = "";
-        int i = 0; 
+        int index = 0; 
         string[] romanNumbers = {"M", "CM", "D", "CD", "C","XC", "L", "XL", "X", "IX", "V", "IV", "I"};
         int[] numbers = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
 
         while (value > 0) {
-            if (value >= numbers[i]) {
-            value -= numbers[i];
-            romanNumbersResult += romanNumbers[i];
+            if (value >= numbers[index]) {
+            value -= numbers[index];
+            romanNumbersResult += romanNumbers[index];
             }
             else {
-                i++;
+                index++;
             }
         }
         
