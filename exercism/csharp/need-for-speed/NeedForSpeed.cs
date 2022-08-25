@@ -2,10 +2,10 @@ using System;
 
 class RemoteControlCar {
     // TODO: define the constructor for the 'RemoteControlCar' class
-    public int speed; // task 1
-    public int batteryDrain; // task 1
-    public int batteryCharge = 100; // task 0
-    public int distance = 0;         // task 0
+    private int speed; // task 1
+    private int batteryDrain; // task 1
+    private int batteryCharge = 100; // task 0
+    private int distance = 0;         // task 0
 
     public  RemoteControlCar(int speed, int batteryDrain) {  // task 1
         this.speed = speed;                         // task 1.1
@@ -23,10 +23,10 @@ class RemoteControlCar {
     }
 
     public void Drive() {
-              // task 4 
+        if (!BatteryDrained()) { // task 4.2 only can drive if battery not drained
             distance += speed; // task 3
             batteryCharge -= batteryDrain; // task 4
-    
+        }
     }
 
     public static RemoteControlCar Nitro() {
@@ -36,19 +36,17 @@ class RemoteControlCar {
 
 class RaceTrack {
     // TODO: define the constructor for the 'RaceTrack' class
-    public int trackDistance = 0; // task 2
+    private int trackDistance = 0; // task 2
     
     public RaceTrack(int distance) { // task 2.1
         this.trackDistance = distance;
     }
 
     public bool TryFinishTrack(RemoteControlCar car) {
-        if (!car.BatteryDrained()) {
+        while (!car.BatteryDrained()) {                //task 6
             car.Drive();
-            return car.DistanceDriven() >= trackDistance;
         }
-        else
-            return car.DistanceDriven() < trackDistance;
+        return car.DistanceDriven() >= trackDistance;
     }    
 }
 
